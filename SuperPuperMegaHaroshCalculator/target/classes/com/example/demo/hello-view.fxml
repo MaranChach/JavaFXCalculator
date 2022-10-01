@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.demo.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+
+    <TextField fx:id="textField"></TextField>
+
+    <VBox>
+        <HBox>
+            <Button onAction="#on1ButtonClick" text="1"></Button>
+            <Button onAction="#on2ButtonClick" text="2"></Button>
+            <Button onAction="#on3ButtonClick" text="3"></Button>
+            <Button onAction="#onPlusButtonClick" text="+"></Button>
+        </HBox>
+        <HBox>
+            <Button onAction="#on4ButtonClick" text="4"></Button>
+            <Button onAction="#on5ButtonClick" text="5"></Button>
+            <Button onAction="#on6ButtonClick" text="6"></Button>
+            <Button onAction="#onMinusButtonClick" text="-"></Button>
+        </HBox>
+        <HBox>
+            <Button onAction="#on7ButtonClick" text="7"></Button>
+            <Button onAction="#on8ButtonClick" text="8"></Button>
+            <Button onAction="#on9ButtonClick" text="9"></Button>
+            <Button onAction="#onMultiplButtonClick" text="*"></Button>
+        </HBox>
+        <HBox>
+            <Button onAction="#on0ButtonClick" text="0"></Button>
+            <Button onAction="#onClearButtonClick" text="C"></Button>
+            <Button onAction="#onResultButtonClick" text="="></Button>
+            <Button onAction="#onDivideButtonClick" text="/"></Button>
+        </HBox>
+    </VBox>
+</VBox>
